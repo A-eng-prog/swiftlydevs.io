@@ -12,17 +12,13 @@ Static project portal for **Projects By Swiftly** and Swiftly's Catweb Roblox we
 - `.nojekyll` - tells GitHub Pages to serve files as a plain static site.
 - `downloads/` - downloadable example project files.
 
-## GitHub Pages
+## Public URL
 
-Publish this repo with GitHub Pages on the default URL:
+GitHub Pages public URL:
 
 `https://a-eng-prog.github.io/swiftlydevs.io/`
 
-Use these GitHub Pages settings:
-
-- Source: Deploy from a branch
-- Branch: `gh-pages`
-- Folder: `/root`
+If Pages is not live yet, open the repository settings and choose **Pages** -> **Build and deployment** -> **Source: GitHub Actions**.
 
 Do not set a custom domain until `swiftlydevs.io` is a registered domain.
 
