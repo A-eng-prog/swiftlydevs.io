@@ -11,7 +11,7 @@ Static project portal for **Projects By Swiftly** and Swiftly's Catweb Roblox we
 - `websites.json` - Catweb website records.
 - `CNAME` - GitHub Pages custom domain for `swiftlydevs.io`.
 - `.nojekyll` - tells GitHub Pages to serve files as a plain static site.
-- `downloads/` - packaged example downloads.
+- `downloads/` - downloadable example project files.
 
 ## GitHub Pages
 
