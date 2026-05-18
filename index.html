@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'"
+    >
+    <meta
+      name="description"
+      content="swiftlydevs.io project downloads and Catweb Roblox websites by Swiftly."
+    >
+    <title>swiftlydevs.io | Projects By Swiftly</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="swiftlydevs.io home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>
+          <strong>swiftlydevs.io</strong>
+          <small>Projects and Catweb</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#projects" data-view-link="projects">Projects</a>
+        <a href="#catweb" data-view-link="catweb">Websites</a>
+        <a href="#security">Security</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <span class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            Static and secure
+          </span>
+          <p class="eyebrow">Swiftly Developer Hub</p>
+          <h1 id="page-title">Projects By Swiftly</h1>
+          <p class="intro-text">
+            A clean download hub for Swiftly builds plus a Catweb websites tab
+            for Roblox-style .rbx pages.
+          </p>
+        </div>
+
+        <figure class="preview-frame">
+          <img
+            src="assets/swiftly-preview.png"
+            width="960"
+            height="540"
+            alt="Preview of the Swiftly project dashboard"
+          >
+        </figure>
+      </section>
+
+      <section class="project-header" aria-labelledby="projects-title">
+        <div>
+          <p class="eyebrow">Downloads</p>
+          <h2 id="projects-title">Projects By Swiftly</h2>
+        </div>
+
+        <div class="view-tabs" aria-label="Site sections">
+          <button class="view-tab is-active" type="button" data-view="projects" aria-pressed="true">
+            Projects
+          </button>
+          <button class="view-tab" type="button" data-view="catweb" aria-pressed="false">
+            Websites
+          </button>
+        </div>
+
+        <label class="search-box" id="project-search-wrap">
+          <span class="visually-hidden">Search current section</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m21 21-4.34-4.34"></path>
+            <circle cx="11" cy="11" r="8"></circle>
+          </svg>
+          <input id="project-search" type="search" placeholder="Search projects">
+        </label>
+      </section>
+
+      <div class="filter-bar" id="project-filters" aria-label="Project filters">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">
+          All
+        </button>
+        <button class="filter-button" type="button" data-filter="web" aria-pressed="false">
+          Web
+        </button>
+        <button class="filter-button" type="button" data-filter="tools" aria-pressed="false">
+          Tools
+        </button>
+        <button class="filter-button" type="button" data-filter="security" aria-pressed="false">
+          Security
+        </button>
+      </div>
+
+      <section class="projects-grid" id="projects" aria-live="polite">
+        <article class="project-card" data-category="web" data-name="example project swiftly starter web">
+          <div class="project-topline">
+            <span class="project-badge project-badge-web" aria-hidden="true">EP</span>
+            <span class="project-version">v1.0.0</span>
+          </div>
+          <h3>Example Project</h3>
+          <p>A starter web build for Swiftly pages, with responsive layout and downloadable source.</p>
+          <ul class="project-meta" aria-label="Project details">
+            <li>Web</li>
+            <li>Static</li>
+          </ul>
+          <a class="download-button" href="downloads/example-project.zip" download aria-label="Download Example Project">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <path d="M7 10l5 5 5-5"></path>
+              <path d="M12 15V3"></path>
+            </svg>
+            <span>Download</span>
+          </a>
+        </article>
+
+        <article class="project-card" data-category="tools" data-name="example launcher swiftly tools desktop">
+          <div class="project-topline">
+            <span class="project-badge project-badge-tools" aria-hidden="true">EL</span>
+            <span class="project-version">v0.9.4</span>
+          </div>
+          <h3>Example Launcher</h3>
+          <p>A compact launcher concept for keeping Swiftly project utilities in one place.</p>
+          <ul class="project-meta" aria-label="Project details">
+            <li>Tools</li>
+            <li>Utility</li>
+          </ul>
+          <a class="download-button" href="downloads/example-launcher.zip" download aria-label="Download Example Launcher">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <path d="M7 10l5 5 5-5"></path>
+              <path d="M12 15V3"></path>
+            </svg>
+            <span>Download</span>
+          </a>
+        </article>
+
+        <article class="project-card" data-category="web" data-name="example api kit swiftly web backend">
+          <div class="project-topline">
+            <span class="project-badge project-badge-api" aria-hidden="true">AK</span>
+            <span class="project-version">v0.8.2</span>
+          </div>
+          <h3>Example API Kit</h3>
+          <p>A sample project package for documenting endpoints, keys, and release notes.</p>
+          <ul class="project-meta" aria-label="Project details">
+            <li>Web</li>
+            <li>API</li>
+          </ul>
+          <a class="download-button" href="downloads/example-api-kit.zip" download aria-label="Download Example API Kit">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <path d="M7 10l5 5 5-5"></path>
+              <path d="M12 15V3"></path>
+            </svg>
+            <span>Download</span>
+          </a>
+        </article>
+
+        <article class="project-card" data-category="security" data-name="example secure panel swiftly security static">
+          <div class="project-topline">
+            <span class="project-badge project-badge-secure" aria-hidden="true">SP</span>
+            <span class="project-version">v1.2.1</span>
+          </div>
+          <h3>Example Secure Panel</h3>
+          <p>A security-focused dashboard sample with hardened browser defaults.</p>
+          <ul class="project-meta" aria-label="Project details">
+            <li>Security</li>
+            <li>Panel</li>
+          </ul>
+          <a class="download-button" href="downloads/example-secure-panel.zip" download aria-label="Download Example Secure Panel">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <path d="M7 10l5 5 5-5"></path>
+              <path d="M12 15V3"></path>
+            </svg>
+            <span>Download</span>
+          </a>
+        </article>
+      </section>
+
+      <section class="catweb-panel" id="catweb" hidden aria-labelledby="catweb-title">
+        <div class="catweb-heading">
+          <div>
+            <p class="eyebrow">Catweb</p>
+            <h2 id="catweb-title">Roblox Websites</h2>
+          </div>
+          <a class="json-link" href="catweb.json" aria-label="Open Catweb JSON manifest">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <path d="M14 2v6h6"></path>
+              <path d="M10 13H8"></path>
+              <path d="M16 17H8"></path>
+            </svg>
+            <span>catweb.json</span>
+          </a>
+        </div>
+        <div class="catweb-grid" id="catweb-grid" aria-live="polite"></div>
+        <p class="empty-state" id="catweb-empty" hidden>No Catweb websites found.</p>
+      </section>
+
+      <p class="empty-state" id="empty-state" hidden>No projects found.</p>
+
+      <section class="security-row" id="security" aria-label="Security protections">
+        <div>
+          <strong>HTTPS first</strong>
+          <span>HSTS ready</span>
+        </div>
+        <div>
+          <strong>CSP locked</strong>
+          <span>Self-hosted assets</span>
+        </div>
+        <div>
+          <strong>Frame blocked</strong>
+          <span>Clickjacking defense</span>
+        </div>
+        <div>
+          <strong>Referrer control</strong>
+          <span>Reduced data leakage</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>swiftlydevs.io</span>
+      <span>Built as a secure static website</span>
+    </footer>
+  </body>
+</html>
