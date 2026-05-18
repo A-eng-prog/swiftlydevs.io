@@ -15,11 +15,11 @@ Static project portal for **Projects By Swiftly** and Swiftly's Catweb Roblox we
 
 ## GitHub Pages
 
-Use these GitHub Pages settings:
+This repo includes a GitHub Actions workflow that publishes the static site to GitHub Pages from `main`.
 
-- Source: deploy from branch
-- Branch: `main`
-- Folder: `/root`
+Use these GitHub Pages settings if GitHub asks you to configure them manually:
+
+- Source: GitHub Actions
 - Custom domain: `swiftlydevs.io`
 
 For security, keep the CSP meta tag in `index.html`, serve the site over HTTPS, and enable these response headers if your host supports custom headers:
