@@ -1,0 +1,79 @@
+[
+  {
+    "domain": "g4-2.rbx",
+    "name": "G4-2",
+    "description": "Streaming service in Catweb.",
+    "category": "Streaming",
+    "tags": ["video", "media"]
+  },
+  {
+    "domain": "uptok.rbx",
+    "name": "Uptok",
+    "description": "TikTok in Catweb.",
+    "category": "Social",
+    "tags": ["shorts", "social"]
+  },
+  {
+    "domain": "mathpoop.rbx",
+    "name": "Mathpoop",
+    "description": "Recreated website.",
+    "category": "Recreation",
+    "tags": ["remake", "fun"]
+  },
+  {
+    "domain": "5i.rbx",
+    "name": "5i",
+    "description": "Login and JSON system.",
+    "category": "System",
+    "tags": ["login", "json"]
+  },
+  {
+    "domain": "t4mu.rbx",
+    "name": "T4mu",
+    "description": "Temu parody website.",
+    "category": "Parody",
+    "tags": ["shop", "parody"]
+  },
+  {
+    "domain": "kallioai.rbx",
+    "name": "KallioAI",
+    "description": "#3rd most powerful AI in Catweb.",
+    "category": "AI",
+    "tags": ["ai", "assistant"]
+  },
+  {
+    "domain": "higgsfield.rbx",
+    "name": "Higgsfield",
+    "description": "Text generator like video generation.",
+    "category": "Generator",
+    "tags": ["text", "generation"]
+  },
+  {
+    "domain": "1080p.rbx",
+    "name": "1080p",
+    "description": "Renderforest in a nutshell.",
+    "category": "Video",
+    "tags": ["render", "video"]
+  },
+  {
+    "domain": "wuffy.rbx",
+    "name": "Wuffy",
+    "description": "Very sleek UI web browser.",
+    "category": "Browser",
+    "tags": ["browser", "ui"]
+  },
+  {
+    "domain": "registered.rbx",
+    "name": "Registered",
+    "description": "Joke website.",
+    "category": "Joke",
+    "tags": ["fun", "joke"]
+  },
+  {
+    "domain": "kallio.rbx",
+    "name": "Kallio",
+    "description": "Kallio AI other website redirect.",
+    "category": "Redirect",
+    "tags": ["ai", "redirect"]
+  }
+]
