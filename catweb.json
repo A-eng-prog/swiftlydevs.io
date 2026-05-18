@@ -1,0 +1,8 @@
+{
+  "site": "swiftlydevs.io",
+  "network": "Catweb",
+  "description": "Swiftly's Catweb Roblox websites index.",
+  "type": "roblox-websites",
+  "websitesEndpoint": "websites.json",
+  "updated": "2026-05-18"
+}
